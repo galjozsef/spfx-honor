@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tigvisszavon-client-side-solution",
+    "id": "491077eb-d6af-4b22-9fba-0f311dfdad2c",
+    "version": "1.5.0.2",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": { "name": "Karádi Rendszerház Kft", "websiteUrl": "http://karadi.hu", "privacyUrl": "", "termsOfUseUrl": "", "mpnId": "" },    
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "345395bc-6a4d-49fa-9a48-784a1b6b9024",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tigvisszavon.sppkg"
+  }
+}

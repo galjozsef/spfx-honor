@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tigvisszavonca-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/tigvisszavonca/TigvisszavoncaCommandSet.js",
+          "manifest": "./src/extensions/tigvisszavonca/TigvisszavoncaCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": 
+  {
+      "jquery": 
+      {
+          "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js",
+          "globalName": "jQuery"
+      }
+  },
+  "localizedResources": {
+    "TigvisszavoncaCommandSetStrings": "lib/extensions/tigvisszavonca/loc/{locale}.js"
+  }
+}

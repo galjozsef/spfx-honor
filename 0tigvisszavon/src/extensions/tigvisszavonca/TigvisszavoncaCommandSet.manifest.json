@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "82d4167e-f822-410b-a8b3-22b4bc4ec996",
+  "alias": "TigvisszavoncaCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_1": {
+      "title": { "default": "TIG visszavonása" },
+      "iconImageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/SiteCollectionImages/revoke20x20.png",
+      "type": "command"
+    }
+  }
+}

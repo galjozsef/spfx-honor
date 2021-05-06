@@ -1,0 +1,31 @@
+{
+  "$schema": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/TIGDokumentumok/Forms/TIGViszzavonhato.aspx",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/TIGDokumentumok/Forms/TIGViszzavonhato.aspx",
+      "customActions": {
+        "82d4167e-f822-410b-a8b3-22b4bc4ec996": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "tigvisszavonca": {
+      "pageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/TIGDokumentumok/Forms/TIGViszzavonhato.aspx",
+      "customActions": {
+        "82d4167e-f822-410b-a8b3-22b4bc4ec996": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

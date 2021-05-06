@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tighelyesbitca-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/tighelyesbitca/TighelyesbitcaCommandSet.js",
+          "manifest": "./src/extensions/tighelyesbitca/TighelyesbitcaCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TighelyesbitcaCommandSetStrings": "lib/extensions/tighelyesbitca/loc/{locale}.js"
+  }
+}

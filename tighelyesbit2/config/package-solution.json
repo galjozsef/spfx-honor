@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tighelyesbit-2-client-side-solution",
+    "id": "4a7adec1-4d2f-4a80-a605-0ede98b392d7",
+    "version": "1.0.4.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": { "name": "Karádi Rendszerház Kft", "websiteUrl": "http://karadi.hu", "privacyUrl": "", "termsOfUseUrl": "", "mpnId": "" },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "dffb4c82-8c97-4718-b549-e7c81a03042f",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tighelyesbit-2.sppkg"
+  }
+}

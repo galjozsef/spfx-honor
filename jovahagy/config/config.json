@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jovahagy-ca-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/jovahagyCa/JovahagyCaCommandSet.js",
+          "manifest": "./src/extensions/jovahagyCa/JovahagyCaCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JovahagyCaCommandSetStrings": "lib/extensions/jovahagyCa/loc/{locale}.js"
+  }
+}

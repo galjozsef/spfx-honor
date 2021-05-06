@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/Lists/TermekCikk/AllItems.aspx",
+      "customActions": {
+        "3eb478b2-0991-43da-bdc8-1c4f701b3c2b": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "jovahagyVisszaCa": {
+      "pageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/Lists/TermekCikk/AllItems.aspx",
+      "customActions": {
+        "3eb478b2-0991-43da-bdc8-1c4f701b3c2b": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
