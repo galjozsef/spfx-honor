@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tig-feladas-ca-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/tigFeladasCa/TigFeladasCaCommandSet.js",
+          "manifest": "./src/extensions/tigFeladasCa/TigFeladasCaCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TigFeladasCaCommandSetStrings": "lib/extensions/tigFeladasCa/loc/{locale}.js"
+  }
+}

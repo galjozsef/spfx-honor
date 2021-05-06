@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "b08a1bfe-0042-467f-9d44-01c256dd1c60",
+  "alias": "TigFeladasCaCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_1": {
+      "title": { "default": "TIG feladás" },
+      "iconImageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/SiteCollectionImages/upload20x20.png",
+      "type": "command"
+    }
+  }
+}

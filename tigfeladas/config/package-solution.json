@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tigfeladas-client-side-solution",
+    "id": "509981a2-a8aa-4566-8dce-7067688de2b0",
+    "version": "1.0.3.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": { "name": "Karádi Rendszerház Kft", "websiteUrl": "http://karadi.hu", "privacyUrl": "", "termsOfUseUrl": "", "mpnId": "" },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "0502ff1d-f0f1-4649-ab8e-d2b0b9fad44e",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tigfeladas.sppkg"
+  }
+}
