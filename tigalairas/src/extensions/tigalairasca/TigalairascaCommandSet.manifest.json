@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "cdfcb344-879e-4cc8-909b-94c60c5afaaa",
+  "alias": "TigalairascaCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_1": {
+      "title": { "default": "TIG aláírása" },
+      "iconImageUrl": "https://mediaworkshungary.sharepoint.com/sites/HonorDEV/SiteCollectionImages/pen20x10.png",
+      "type": "command"
+    }
+  }
+}
